@@ -1,0 +1,68 @@
+@import '~bootstrap/scss/bootstrap';
+
+img {
+    max-width: 100%;
+}
+
+.story_images {
+    img {
+        max-height: 450px;
+    }
+
+}
+
+header {
+
+    h1 {
+        margin-top: -1.5rem;
+    }
+
+    .active {
+        color: white;
+    }
+}
+
+nav,
+footer {
+    background-color: #fed224;
+
+    .nav-link {
+        font-weight: bold;
+        padding: 2rem 1rem;
+        text-transform: uppercase;
+    }
+}
+
+.logo {
+    width: 250px;
+}
+
+.pokeball {
+    width: 80px;
+}
+
+main {
+    .card {
+        img {
+            max-width: 150px;
+        }
+
+    }
+
+    .banner {
+        background-image: url(../img/banner.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+    }
+}
+
+footer {
+    a {
+        list-style: none;
+        text-decoration: none;
+        color: white;
+    }
+
+}
